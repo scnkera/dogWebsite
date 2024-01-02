@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title>Dogs Website</title>
+</head>
+
+<body style="margin: 0px;">
+
+    <!-- navigation bar -->
+    <nav>
+        <ul style="margin:0;">
+            <li style="background: #9D76C1;"><a href="home.html">HOME</a></li>
+            <li style="background: #9D76C1;"><a href="resources.html">RESOURCES</a></li>
+            <li>SUPPORT</li>
+        </ul>
+    </nav>
+
+    <!-- First Content Box -->
+    <div id="contentBoxOne">
+        <div id="homeTitle">
+            <p id="mainTitle">Contact Us for Assistance!</p>
+        </div>
+    </div>
+
+    <!-- First partition -->
+    <div id="partitionOne"></div>
+
+    <!-- Second Content Box -->
+    <div id="contentBoxTwoSupport">
+        <div id="contactBox">
+            <section id="login-page">
+                <h1>Submit your Question!</h1>
+                <form method="POST">
+                    <fieldset id="name">
+                        <label>Name</label>
+                        <input type="text">
+                    </fieldset>
+                    <fieldset id="Email">
+                        <label>Email</label>
+                        <input type="email">
+                    </fieldset>
+                    <fieldset id="question">
+                        <label>Question</label>
+                        <input id="questionBox" type="text">
+                    </fieldset>
+                    <button type="submit">SUBMIT</button>
+                </form>
+            </section>
+            <!-- continue here -->
+        </div>
+    </div>
+
+    <!-- Second partition -->
+    <div id="partitionTwo"></div>
+
+    <!-- Third Content Box -->
+    <div id="contentBoxThreeSupport">
+        <div id="surveyBox">
+            <section id="survey-page">
+                <h1>Optional Survey</h1>
+                <p><b>Help us collect data on dog ownership!</b></p>
+                <form id="surveyForm" method="POST">
+                    <fieldset>
+                        <label for="dogNum">How many dogs do you have?</label>
+                        <select name="dogs" id="dogNum">
+                            <option value="--Select a quantity---">--Select a Quantity---</option>
+                            <option value="0"> 0 dogs</option>
+                            <option value="1"> 1 dogs</option>
+                            <option value="2"> 2 dogs</option>
+                            <option value="3"> 3 dogs</option>
+                            <option value="4+"> 4+ dogs</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="dogGender"><br>What gender is your eldest dog?</label>
+                        <select name="gender" id="dogGender">
+                            <option value="--Select a Gender---">--Select a Gender---</option>
+                            <option value="0">Female</option>
+                            <option value="1">Male</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="dogAge"><br>How old is your eldest dog?</label>
+                        <select name="age" id="dogAge">
+                            <option value="--Select an Age---">--Select an Age---</option>
+                            <option value="Less than 1">Less than 1</option>
+                            <option value="1-5">1-5 years old</option>
+                            <option value="5-10">5-10 years old</option>
+                            <option value="11+">11+ years old</option>
+                        </select>
+                    </fieldset>
+                </form>
+                <button type="submit">SUBMIT</button>
+            </section>
+        </div>
+    </div>
+
+</body>
+
+</html>

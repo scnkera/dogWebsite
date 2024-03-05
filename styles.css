@@ -91,10 +91,6 @@ table, th, td{
     border: 5px solid;
 }
 
-th{
-    font-size: 35px;
-}
-
 table{
     background: #EEE7DA;
     width: 80%;
@@ -204,6 +200,11 @@ form, label, input {
 
 label,th{
     font-weight:bold;
+}
+
+#tableText{
+    font-size: 35px;
+    color: purple;
 }
 
 #surveyForm fieldset{
